@@ -388,7 +388,7 @@ class App extends React.Component {
 ## Stap 5 - Bootstrap toevoegen
 
 ** Bootstrap CSS inladen**
-We gaan Bootstrap 4 toevoegen om de styling mooier te maken. Dit gaan we doen in het bestand `public.html` in de folder `public`
+We gaan Bootstrap 4 toevoegen om de styling mooier te maken. Dit gaan we doen in het bestand `index.html` in de folder `public`
 
 ```
 boodschappenlijst
