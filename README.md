@@ -192,7 +192,7 @@ class App extends React.Component {
 
 ```
 
-##  stap 3 - Nieuwe boodschappen toevoegen
+## Stap 3 - Nieuwe boodschappen toevoegen
 **Container met een Formulier toevoegen**
 We voegen een formulier toe waarmee we nieuwe boodschappen kunnen toevoegen. Deze container plaats je onder de tabel container
 
@@ -260,6 +260,11 @@ class App extends React.Component {
 
       ...
 
+```
+
+**Vervolgens koppelen we de functie aan het formulier**
+```
+<form onSubmit={ (event) => this.handleSubmit(event) }>
 ```
 
 ## Stap 4 - Boodschappen verwijderen
