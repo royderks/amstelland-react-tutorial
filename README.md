@@ -98,6 +98,7 @@ class App extends React.Component {
               </table>
             </div>
           </div>
+         </div>
 
           ...
 
@@ -185,6 +186,7 @@ class App extends React.Component {
               </table>
             </div>
           </div>
+         </div>
 
           ...
 
