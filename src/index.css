@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: lime;
+  padding: 40px 20px;
+  color: white;
+}
+
+.header .logo {
+  animation: logo-flip infinite 10s linear;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.header .title {
+  width: 100%;
+  text-align: center;
+}
+
+.content td.action {
+  text-align: right;;
+}
+
+.form label {
+  width: 100%;
+}
+
+@keyframes logo-flip {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(180deg); }
+}
