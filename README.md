@@ -306,7 +306,7 @@ class App extends React.Component {
                       <td>{ item.product }</td>
                       <td>{ item.quantity }</td>
                       <td className='action'>
-                        <button type="button" class="btn btn-danger">Verwijderen</button>
+                        <button type="button" className="btn btn-danger">Verwijderen</button>
                       </td>
                     </tr>
                   )
@@ -370,7 +370,7 @@ class App extends React.Component {
                       <td>{ item.product }</td>
                       <td>{ item.quantity }</td>
                       <td className='action'>
-                        <button type="button" class="btn btn-danger" onClick={ (index) => this.handleDelete(index) }>Verwijderen</button>
+                        <button type="button" className="btn btn-danger" onClick={ () => this.handleDelete(index) }>Verwijderen</button>
                       </td>
                     </tr>
                   )
